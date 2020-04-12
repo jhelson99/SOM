@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">H2 Jhelson Carrillo</string>
+    <string name="virus">Epidemia Corona Virus</string>
+    <string name="busqueda">Ingrese busqueda</string>
+    <string name="buscar">CALCULAR</string>
+    <string name="cocha">COCHABAMBA</string>
+    <string name="santa">SANTA CRUZ</string>
+    <string name="oruro">ORURO</string>
+    <string name="casosC">Nro. de Casos</string>
+    <string name="casosSC">Nro. de Casos</string>
+    <string name="casosO">Nro. de Casos</string>
+    <string name="nro1">Nro.</string>
+    <string name="nro2">Nro.</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="enviarVa">Enviar Valores</string>
+
+</resources>
