@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Onboarding.TextRecognitionFragment"
+    android:orientation="vertical"
+    android:background="@drawable/fondouf">
+
+    <ImageView
+        android:id="@+id/imgLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logounigranzitos" />
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/email"
+        android:background="@drawable/bordes"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/aclonica"
+        android:inputType="textEmailAddress">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/pwd"
+        android:background="@drawable/bordes"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/aclonica">
+
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/login"
+        android:background="@drawable/bordes"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/aclonica">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/register"
+        android:background="@drawable/bordes"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/aclonica">
+
+    </Button>
+
+    <LinearLayout
+        android:id="@+id/layoutNext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textInc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="bottom|start"
+            android:layout_weight="1"
+            android:text="@string/back"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:fontFamily="@font/baumans"
+            android:clickable="true"
+            android:focusable="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>
