@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">hito3JhelsonCarrilloOrtega</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title1">SOME</string>
+    <string name="title2">DEFENSA HITO 3</string>
+    <string name="desc1">Manejo de events, functions, activities y navigation entre screens.</string>
+    <string name="desc2">Univ.:Jhelson Carrillo Gestion 2020</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="username">Username</string>
+    <string name="app">Select App</string>
+    <string name="login">Ingresar</string>
+    <string name="tip1">Basica</string>
+    <string name="tip2">Cientifica</string>
+    <string name="tip3">Custom</string>
+    <string name="mens">Desc</string>
+    <string name="select">Select</string>
+</resources>
