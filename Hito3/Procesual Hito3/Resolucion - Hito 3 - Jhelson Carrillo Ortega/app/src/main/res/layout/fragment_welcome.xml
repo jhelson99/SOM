@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Onboarding.WelcomeFragment"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/imgWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-110dp"
+        android:src="@drawable/img1" />
+
+    <TextView
+        android:id="@+id/textTitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="@string/title1"
+        android:textColor="@color/colorNaranja"
+        android:textSize="28sp" />
+    <TextView
+        android:id="@+id/textDesc1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/desc1"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorNaranja"
+        android:gravity="center"
+        android:fontFamily="@font/aclonica"/>
+
+    <LinearLayout
+        android:id="@+id/layoutNext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnskip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/styles_btn"
+            android:fontFamily="@font/baumans"
+            android:text="@string/skip"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/baumans"
+            android:gravity="bottom|end"
+            android:text="@string/next"
+            android:textColor="@color/colorNaranja"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

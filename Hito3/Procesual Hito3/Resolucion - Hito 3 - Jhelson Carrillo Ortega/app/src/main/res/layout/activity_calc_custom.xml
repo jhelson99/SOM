@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".App.CalcCustom"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="32dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvShowTypeCalc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorNaranja"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvShowUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorNaranja"
+            android:textSize="15sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/style_et"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btexp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="x2"/>
+            <Button
+                android:id="@+id/btexp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="x3"/>
+            <Button
+                android:id="@+id/btfac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="N!"/>
+            <Button
+                android:id="@+id/btsumatoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="Σn"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btuno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="1"/>
+            <Button
+                android:id="@+id/btdos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="2"/>
+            <Button
+                android:id="@+id/bttres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="3"/>
+            <Button
+                android:id="@+id/btcuatro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="4"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btcero"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="0"/>
+            <Button
+                android:id="@+id/btshift"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="Shift"/>
+            <Button
+                android:id="@+id/btborrar"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="Clean"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btsuma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="+"/>
+            <Button
+                android:id="@+id/btresta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="-"/>
+            <Button
+                android:id="@+id/btdiv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="/"/>
+            <Button
+                android:id="@+id/btmulti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="*"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btigual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="="/>
+            <Button
+                android:id="@+id/btclose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/styles_btn"
+                android:textColor="@color/colorWhite"
+                android:text="Close App"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
