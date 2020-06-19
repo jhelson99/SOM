@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlListItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAzul"
+    android:padding="12dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/civItem"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tvImage"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/canada"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/civItem"
+        android:layout_centerVertical="true"
+        android:padding="15dp"
+        android:textColor="@color/colorCeleste"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btplay"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="►"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/tvImage"
+        android:layout_centerVertical="true"
+        android:textColor="@color/colorCeleste"
+        android:background="@color/colorAzul2"/>
+    <Button
+        android:id="@+id/btpause"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="▌▌"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@id/btplay"
+        android:layout_centerVertical="true"
+        android:textColor="@color/colorCeleste"
+        android:background="@color/colorAzul2"/>
+    <Button
+        android:id="@+id/btstop"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="█"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@id/btpause"
+        android:layout_centerVertical="true"
+        android:textColor="@color/colorCeleste"
+        android:background="@color/colorAzul2"/>
+
+</RelativeLayout>
