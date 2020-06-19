@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlListItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorVerdeClaro"
+    android:padding="12dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/civItem"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tvImage"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/canada"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/civItem"
+        android:layout_centerVertical="true"
+        android:padding="15dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/btescuchar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="escuchar"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/tvImage"
+        android:layout_centerVertical="true"
+        android:textColor="@color/colorVerdeClaro"
+        android:background="@drawable/stylebtn"
+        android:clickable="true"/>
+
+</RelativeLayout>
