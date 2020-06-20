@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".App.Lyrics"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Queen - We Are The Champions "
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:layout_marginTop="15dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:background="@drawable/queen1"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="We are the champions, my friends...
+             And we'll keep on fighting 'til the end...
+             We are the champions...
+             We are the champions...
+             No time for losers...
+             'Cause we are the champions of the world"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp">
+
+    </TextView>
+
+
+</LinearLayout>
